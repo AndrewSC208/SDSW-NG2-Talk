@@ -3,10 +3,11 @@ https://docs.google.com/presentation/d/1Vry-p4MRiBV2aeF0y9rIOITGCRBdDRUpYGsilVeA
 
 Pre Req's:
 Install Node
-Instll Angular Cli
+Install Angular Cli
 
 Get Started:
-1. npm install
-2. ng serve
+1. Pull repo
+2. npm install
+3. ng serve
 
 Accepting PR's, feedback is always welcome!!
