@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'SDSW Demo';
+
+  links = [
+  	{
+  		title: 'Home',
+  		description: 'We all have one',
+  		icon: 'home',
+  		href: '/home'
+  	},
+    {
+      title: 'Goals',
+      description: 'Sure',
+      icon: 'trending_up',
+      href: '/goals'
+    }
+  ];
+  
 }

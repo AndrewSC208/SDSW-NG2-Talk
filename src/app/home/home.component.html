@@ -1,0 +1,18 @@
+<md-card class="header">
+
+	<h2>To Do's</h2>
+	<h3>{{ counter }}</h3>
+	
+	<md-input-container class="full-width">
+		<input mdInput placeholder="Add a To Do" #todo />
+	</md-input-container>
+	
+  	<button (click)="addTodo(todo.value); todo.value=''" md-fab class="add-todo"><md-icon>add</md-icon></button>
+</md-card>
+
+<md-card *ngFor="let todo of todos" class="todoRow">
+	<span>{{todo.text}}</span>
+	<button md-mini-fab (click)="completeTodo(todo)"><md-icon>check</md-icon></button>
+</md-card>
+
+
